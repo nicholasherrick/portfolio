@@ -38,6 +38,7 @@ ul {
   top: 0;
   background-color: $dark-color;
   opacity: 0.8;
+  z-index: 11;
 
   ul {
     display: flex;
