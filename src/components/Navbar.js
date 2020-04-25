@@ -1,15 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTerminal } from '@fortawesome/free-solid-svg-icons';
 
 export default function Navbar() {
   return (
-    <nav>
+    <nav className='navbar'>
       <h1>
         <Link to='/'>
-          <FontAwesomeIcon icon={faTerminal} />
-          NicholasHerrick.com
+          <i className='fas fa-terminal'></i> NicholasHerrick.com
         </Link>
       </h1>
       <ul>
@@ -20,10 +17,13 @@ export default function Navbar() {
           <Link to='/skills'>Skills</Link>
         </li>
         <li>
-          <Link to='/inquiry'>Inquiry</Link>
+          <Link to='/inquire'>Inquire</Link>
         </li>
         <li>
           <Link to='/about'>About</Link>
+        </li>
+        <li>
+          <a href='#test'>test</a>
         </li>
       </ul>
     </nav>
