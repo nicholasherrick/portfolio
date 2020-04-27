@@ -30,7 +30,7 @@ export default function Home() {
         <div className='text-center'>
           <h1>Hi, I'm Nick,</h1>
           <h1>I'm a Full Stack Web Developer from Denver, Colorado</h1>
-          <a href='#about'>
+          <a href='#about-jump'>
             <button className='btn'>Read More</button>
           </a>
         </div>
