@@ -140,13 +140,18 @@ small {
 }
 
 #inquire {
+  position: relative;
   color: $light-color;
   height: 100vh;
   padding: 0 20px;
   background: url(../assets/img/code-image.jpg) no-repeat center center/cover;
 
   &-overlay {
+    position: absolute;
     width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
     height: inherit;
     background: rgba(0, 0, 0, 0.7);
     display: flex;
@@ -158,7 +163,8 @@ small {
 }
 
 #about {
-  min-height: 100vh;
+  max-height: 100vh;
+  min-height: 60rem;
   max-width: 50rem;
   margin: auto;
   margin-bottom: 5rem;
@@ -212,4 +218,54 @@ small {
 
 .special-hr {
   margin-bottom: 4rem;
+}
+
+@media screen and (max-width: 480px) {
+  img {
+    width: 100%;
+  }
+
+  .navbar {
+    position: fixed;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .dark-overlay h1 {
+    font-size: 2rem;
+  }
+
+  .flex-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  #skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .about-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    & p {
+      min-width: 20rem;
+      max-width: 35rem;
+      margin-left: 3rem;
+    }
+  }
+}
+
+@media screen and (min-width: 480px) {
+}
+
+@media screen and (min-width: 768px) {
 }
