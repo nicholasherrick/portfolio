@@ -27,6 +27,10 @@ ul {
   list-style: none;
 }
 
+small {
+  display: block;
+}
+
 // Navbar
 .navbar {
   display: flex;
@@ -112,6 +116,73 @@ ul {
   }
 }
 
+.portfolio-projects {
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+
+  & a {
+    color: #0000ee;
+  }
+}
+
+.project {
+  max-width: 35rem;
+}
+
+#skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 2rem;
+}
+
+#inquire {
+  color: $light-color;
+  height: 100vh;
+  padding: 0 20px;
+  background: url(../assets/img/code-image.jpg) no-repeat center center/cover;
+
+  &-overlay {
+    width: 100%;
+    height: inherit;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+#about {
+  min-height: 100vh;
+  max-width: 50rem;
+  margin: auto;
+  margin-bottom: 5rem;
+
+  &-img {
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    max-height: 35rem;
+  }
+}
+
+.about-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  & p {
+    min-width: 20rem;
+    max-width: 35rem;
+    margin-left: 3rem;
+  }
+}
+
 .welcome {
   font-weight: 300;
   font-size: 60px;
@@ -123,8 +194,22 @@ ul {
 .dark-overlay {
   width: 100%;
   position: absolute;
+  color: $light-color;
   top: 50;
   left: 0;
   background-color: $dark-color;
   opacity: 0.8;
+}
+
+.dark-overlay-2 {
+  width: 100%;
+  color: $light-color;
+  top: 50;
+  left: 0;
+  background-color: $dark-color;
+  opacity: 0.8;
+}
+
+.special-hr {
+  margin-bottom: 4rem;
 }

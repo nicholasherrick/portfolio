@@ -11,19 +11,19 @@ export default function Navbar() {
       </h1>
       <ul>
         <li>
-          <Link to='/portfolio'>Portfolio</Link>
+          <a href='#home-jump'>Home</a>
         </li>
         <li>
-          <Link to='/skills'>Skills</Link>
+          <a href='#portfolio-jump'>Portfolio</a>
         </li>
         <li>
-          <Link to='/inquire'>Inquire</Link>
+          <a href='#skills-jump'>Skills</a>
         </li>
         <li>
-          <Link to='/about'>About</Link>
+          <a href='#inquire'>Inquire</a>
         </li>
         <li>
-          <a href='#test'>test</a>
+          <a href='#about-jump'>About</a>
         </li>
       </ul>
     </nav>
