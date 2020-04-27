@@ -5,7 +5,6 @@ import Footer from '../components/Footer';
 import Video from '../assets/vid/video.mp4';
 import Nick from '../assets/img/nick.jpg';
 import Nick2 from '../assets/img/nick2.jpg';
-import CodeImage from '../assets/img/code-image.jpg';
 import Resume from '../assets/doc/resume.pdf';
 import StaySafe from '../assets/img/staysafe.jpg';
 import FridgeFriend from '../assets/img/fridgefriend.png';
