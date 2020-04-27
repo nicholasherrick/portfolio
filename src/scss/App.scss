@@ -117,7 +117,8 @@ small {
 }
 
 .portfolio-projects {
-  min-height: 100vh;
+  max-height: 100vh;
+  min-height: 60rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
