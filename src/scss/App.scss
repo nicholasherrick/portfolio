@@ -116,8 +116,6 @@ small {
 }
 
 .portfolio-projects {
-  max-height: 100vh;
-  min-height: 60rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -130,13 +128,6 @@ small {
 
 .project {
   max-width: 35rem;
-}
-
-#skills {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  margin-bottom: 2rem;
 }
 
 #inquire {
@@ -163,8 +154,6 @@ small {
 }
 
 #about {
-  max-height: 100vh;
-  min-height: 65rem;
   max-width: 50rem;
   margin: auto;
   margin-bottom: 5rem;
@@ -200,15 +189,6 @@ small {
 .dark-overlay {
   width: 100%;
   position: absolute;
-  color: $light-color;
-  top: 50;
-  left: 0;
-  background-color: $dark-color;
-  opacity: 0.8;
-}
-
-.dark-overlay-2 {
-  width: 100%;
   color: $light-color;
   top: 50;
   left: 0;

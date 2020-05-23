@@ -3,7 +3,6 @@ import Navbar from '../components/Navbar';
 import Project from '../components/Project';
 import Footer from '../components/Footer';
 import Video from '../assets/vid/video.mp4';
-import Nick from '../assets/img/nick.jpg';
 import Nick2 from '../assets/img/nick2.jpg';
 import Resume from '../assets/doc/resume.pdf';
 import StaySafe from '../assets/img/staysafe.jpg';
@@ -25,8 +24,7 @@ export default function Home() {
         </div>
       </section>
       <Navbar />
-      <section className='flex-wrapper'>
-        <img className='img-fluid' src={Nick} alt='' />
+      <section className='flex-wrapper my-5'>
         <div className='text-center'>
           <h1>Hi, I'm Nick,</h1>
           <h1>I'm a Full Stack Web Developer from Denver, Colorado</h1>
@@ -39,8 +37,8 @@ export default function Home() {
       <br id='portfolio-jump' className='my-4' />
 
       <section id='portfolio'>
-        <div className='dark-overlay-2 my-3'>
-          <h1 className='text-center py-2'>My Portfolio</h1>
+        <div className='my-3'>
+          <h1 className='text-center'>My Portfolio</h1>
         </div>
         <div className='portfolio-projects'>
           <Project
@@ -57,50 +55,6 @@ export default function Home() {
             github='https://github.com/nicholasherrick/project2'
             description={`Can't decide what to eat? Forgot that milk was about to expire, but you already went shopping? Fridge Friend is for people who want an easy and convenient way to manage their food and shopping endeavors. Keep track of your fridge, pantry, grocery shopping list, and favorite recipes all in one place!`}
           />
-        </div>
-      </section>
-
-      <hr id='skills-jump' className='my-5' />
-
-      <h1 className='text-center my-2'>My Skills</h1>
-      <section id='skills'>
-        <div className='languages'>
-          <h3>Languages & Markup</h3>
-          <ul>
-            <li>Javascript</li>
-            <li>ES6</li>
-            <li>HTML5</li>
-            <li>CSS3</li>
-          </ul>
-        </div>
-        <div className='frameworks'>
-          <h3>Frameworks & Libraries</h3>
-          <ul>
-            <li>React</li>
-            <li>SASS</li>
-            <li>Express</li>
-            <li>Passport</li>
-            <li>Bootstrap</li>
-            <li>JQuery</li>
-            <li>Sendgrid</li>
-            <li>Handlebars</li>
-            <li>Cron</li>
-            <li>Moment</li>
-            <li>Socketio</li>
-            <li>jest/enzyme</li>
-            <li>mocha/chai</li>
-          </ul>
-        </div>
-        <div className='technologies'>
-          <h3>Technologies</h3>
-          <ul>
-            <li>Node</li>
-            <li>Twilio</li>
-            <li>Mongodb</li>
-            <li>MySQL</li>
-            <li>Google Maps Geocoding</li>
-            <li>Firebase</li>
-          </ul>
         </div>
       </section>
 

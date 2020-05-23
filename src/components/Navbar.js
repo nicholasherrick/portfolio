@@ -17,9 +17,6 @@ export default function Navbar() {
           <a href='#portfolio-jump'>Portfolio</a>
         </li>
         <li>
-          <a href='#skills-jump'>Skills</a>
-        </li>
-        <li>
           <a href='#inquire'>Inquire</a>
         </li>
         <li>
