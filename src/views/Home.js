@@ -7,6 +7,7 @@ import Nick2 from '../assets/img/nick2.jpg';
 import Resume from '../assets/doc/resume.pdf';
 import StaySafe from '../assets/img/staysafe.jpg';
 import FridgeFriend from '../assets/img/fridgefriend.png';
+import ColoradoHomeSavers from '../assets/img/coloradohomesavers.jpg';
 
 export default function Home() {
   return (
@@ -54,6 +55,13 @@ export default function Home() {
             demo='https://fridge-friend-banana.herokuapp.com/'
             github='https://github.com/nicholasherrick/project2'
             description={`Can't decide what to eat? Forgot that milk was about to expire, but you already went shopping? Fridge Friend is for people who want an easy and convenient way to manage their food and shopping endeavors. Keep track of your fridge, pantry, grocery shopping list, and favorite recipes all in one place!`}
+          />
+          <Project
+            title='Colorado Home Savers (In Progress)'
+            img={ColoradoHomeSavers}
+            demo='https://coloradohomesavers.org/'
+            github='https://github.com/nicholasherrick/colorado-home-savers'
+            description='Static website created for a local llc. Built using React and SASS. '
           />
         </div>
       </section>
