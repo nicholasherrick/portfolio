@@ -78,6 +78,11 @@ small {
   height: 6rem;
   background-color: $dark-color;
   color: $light-color;
+
+  & i:hover {
+    color: #00ffff;
+    transform: scale(1.1);
+  }
 }
 
 .showcase {
