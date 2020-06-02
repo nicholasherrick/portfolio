@@ -167,6 +167,10 @@ small {
   & p {
     margin-top: 0.5rem;
   }
+
+  & h1 {
+    text-align: center;
+  }
 }
 
 #inquire {
@@ -297,7 +301,6 @@ small {
   }
 
   .project {
-    text-align: center;
     & button {
       width: 100%;
     }
