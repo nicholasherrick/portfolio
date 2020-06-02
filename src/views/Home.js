@@ -18,9 +18,7 @@ export default function Home() {
         </div>
         <div className='content'>
           <div className='dark-overlay'>
-            <h1 className='welcome py-1'>
-              <i className='fas fa-terminal'></i>Welcome to NicholasHerrick.com
-            </h1>
+            <h1 className='welcome py-1'>Welcome to NicholasHerrick.com</h1>
           </div>
         </div>
       </section>
@@ -38,7 +36,7 @@ export default function Home() {
       <br id='portfolio-jump' className='my-4' />
 
       <section id='portfolio'>
-        <div className='my-3'>
+        <div className='my-4'>
           <h1 className='text-center'>My Portfolio</h1>
         </div>
         <div className='portfolio-projects'>

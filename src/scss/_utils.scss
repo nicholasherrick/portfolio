@@ -45,6 +45,7 @@
   border-radius: 5px;
   margin-top: 25px;
   opacity: 0.7;
+  font-weight: bold;
   &-project {
     margin-top: 10px;
   }
@@ -102,6 +103,7 @@ div.item a {
 
 div.item.blue {
   background-color: #34495e;
+  margin-right: 15px;
 }
 div.item.blue i {
   color: #34495e;
