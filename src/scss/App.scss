@@ -292,11 +292,16 @@ small {
       min-width: 20rem;
       max-width: 35rem;
       margin-left: 3rem;
+      text-align: center;
     }
   }
-}
 
-@media screen and (min-width: 480px) {
+  .project {
+    text-align: center;
+    & button {
+      width: 100%;
+    }
+  }
 }
 
 @media screen and (min-width: 768px) {
