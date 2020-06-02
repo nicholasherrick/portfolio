@@ -145,10 +145,6 @@ small {
     font-family: 'Questrial', sans-serif;
     font-weight: bolder;
   }
-
-  & a {
-    color: #0000ee;
-  }
 }
 
 .project {
@@ -159,10 +155,6 @@ small {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-color: white;
   margin-bottom: 2rem;
-
-  & img {
-    box-shadow: 10px 10px 5px grey;
-  }
 
   & p {
     margin-top: 0.5rem;
@@ -273,6 +265,16 @@ small {
     flex-wrap: wrap;
     text-align: center;
     padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    & ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
   }
 
   .dark-overlay h1 {
@@ -300,9 +302,23 @@ small {
     }
   }
 
+  div.item.blue {
+    margin-right: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .project {
-    & button {
-      width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    & img {
+      display: block;
+      margin: auto;
     }
   }
 }
