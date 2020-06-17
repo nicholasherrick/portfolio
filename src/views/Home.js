@@ -8,6 +8,7 @@ import Resume from '../assets/doc/resume.pdf';
 import StaySafe from '../assets/img/staysafe.jpg';
 import FridgeFriend from '../assets/img/fridgefriend.png';
 import ColoradoHomeSavers from '../assets/img/coloradohomesavers.jpg';
+import Warbler from '../assets/img/warbler.jpg';
 
 export default function Home() {
   return (
@@ -48,6 +49,13 @@ export default function Home() {
             description='StaySafe is a browser based web application intended for use on mobile devices. Our application allows users to call for help on the go with ease, and keep tabs on their friends who are out and about.'
           />
           <Project
+            title='Warbler'
+            img={Warbler}
+            demo='https://warbler-client-nh.herokuapp.com/'
+            github='https://github.com/nicholasherrick/warbler'
+            description='MERN stack app meant to be similar to twitter. Uses React with Redux & Thunk for promise based global state handling. Features rehydration, uniform error handling, modern async javascript, etc.'
+          />
+          <Project
             title='Fridge Friend'
             img={FridgeFriend}
             demo='https://fridge-friend-banana.herokuapp.com/'
@@ -59,7 +67,7 @@ export default function Home() {
             img={ColoradoHomeSavers}
             demo='https://coloradohomesavers.org/'
             github='https://github.com/nicholasherrick/colorado-home-savers'
-            description='Static website created for a local llc. Built using React and SASS. '
+            description='Static website created for a local llc. Built using React and SASS.'
           />
         </div>
       </section>
