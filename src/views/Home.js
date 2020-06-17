@@ -9,6 +9,7 @@ import StaySafe from '../assets/img/staysafe.jpg';
 import FridgeFriend from '../assets/img/fridgefriend.png';
 import ColoradoHomeSavers from '../assets/img/coloradohomesavers.jpg';
 import Warbler from '../assets/img/warbler.jpg';
+import Site1627 from '../assets/img/1627.png';
 
 export default function Home() {
   return (
@@ -69,6 +70,13 @@ export default function Home() {
             github='https://github.com/nicholasherrick/colorado-home-savers'
             description='Static website created for a local llc. Built using React and SASS.'
           />
+          <Project
+            title='1627 (In Progress)'
+            img={Site1627}
+            demo='https://1627.us/'
+            github='https://github.com/nicholasherrick/1627.us'
+            description='Static site for a client who wanted a very simple layout'
+          />
         </div>
       </section>
 
@@ -102,16 +110,19 @@ export default function Home() {
             </small>
           </div>
           <p>
-            I'm a Web Developer advancing from a traveling career in healthcare.
-            Newly certified in Full Stack Web Development from the University of
-            Denver. Skills include HTML, CSS, Javascript, Node.js, React.js,
-            MySQL, Mongodb, etc. Knowledgeable in UI/UX design principles in
-            order to create user friendly, responsive mobile-first web pages.
-            Coding apps in group projects has taught me the importance of
-            writing clear, easy to understand code using an organized and
-            uniform process. I've always been known as a diligent worker and
-            team player. I'm looking to utilize my experience traveling the
-            country and adhering to rigid of standards in a developer role.
+            Web Developer advancing from a traveling career in healthcare.
+            Certified in Full Stack Web Development from the University of
+            Denver. Skills include building and managing full stack applications
+            using javascript frameworks and technologies, including React, Node,
+            MongoDB, etc. Knowledgeable in UI/UX design principles, able to
+            create user friendly, responsive, mobile-first web pages. Experience
+            coding group projects, aware of the importance of writing clear,
+            easy to understand code with an organized and uniform process.
+            Understand and can write modern asynchronous Javascript and manage
+            global state in React with Redux. Recognized as a conscientious and
+            open minded individual that values teamwork, respect, and integrity.
+            Excited to utilize previous experience traveling the country and
+            adhering to rigid healthcare standards in a developer role.
           </p>
         </div>
       </section>
