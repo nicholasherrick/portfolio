@@ -204,8 +204,13 @@ small {
 
 #about {
   max-width: 50rem;
-  margin: auto;
   margin-bottom: 5rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
 
   &-img {
     border-radius: 50%;

@@ -10,6 +10,7 @@ import FridgeFriend from '../assets/img/fridgefriend.png';
 import ColoradoHomeSavers from '../assets/img/coloradohomesavers.jpg';
 import Warbler from '../assets/img/warbler.jpg';
 import Site1627 from '../assets/img/1627.png';
+import MuralMap from '../assets/img/muralmap.png';
 
 export default function Home() {
   return (
@@ -35,6 +36,13 @@ export default function Home() {
         </div>
       </section>
 
+      <section>
+        <div className="text-center">
+          <h1>Experience</h1>
+          <h2>Teaching Assistant</h2>
+        </div>
+      </section>
+
       <br id='portfolio-jump' className='my-4' />
 
       <section id='portfolio'>
@@ -48,6 +56,13 @@ export default function Home() {
             demo='https://staysafe.best/'
             github='https://github.com/nicholasherrick/Project-Gamma'
             description='StaySafe is a browser based web application intended for use on mobile devices. Our application allows users to call for help on the go with ease, and keep tabs on their friends who are out and about.'
+          />
+          <Project
+            title='Mural Map (in progress)'
+            img={MuralMap}
+            demo='https://muralmap.art/'
+            github='https://github.com/nicholasherrick/mural-map-frontend'
+            description='Mural Map is a browser based web application intended for use on mobile devices. The application allows users to find, discover and share murals using markers on an interactive google map.'
           />
           <Project
             title='Warbler'
@@ -128,6 +143,6 @@ export default function Home() {
       </section>
 
       <Footer />
-    </div>
+    </div >
   );
 }
