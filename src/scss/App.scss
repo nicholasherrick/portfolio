@@ -205,12 +205,13 @@ small {
 #about {
   max-width: 50rem;
   margin-bottom: 5rem;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: auto;
+  margin-bottom: 2rem;
 
   &-img {
     border-radius: 50%;
