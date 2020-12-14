@@ -53,7 +53,7 @@ export default function Home() {
           <Project
             title='StaySafe'
             img={StaySafe}
-            demo='https://staysafe.best/'
+            demo='https://stay-safe-fork.herokuapp.com/'
             github='https://github.com/nicholasherrick/Project-Gamma'
             description='StaySafe is a browser based web application intended for use on mobile devices. Our application allows users to call for help on the go with ease, and keep tabs on their friends who are out and about.'
           />
