@@ -11,6 +11,7 @@ import ColoradoHomeSavers from '../assets/img/coloradohomesavers.jpg';
 import Warbler from '../assets/img/warbler.jpg';
 import Site1627 from '../assets/img/1627.png';
 import MuralMap from '../assets/img/muralmap.png';
+import ClickyGame from '../assets/img/clickygame.jpg';
 
 export default function Home() {
   return (
@@ -70,6 +71,13 @@ export default function Home() {
             demo='https://warbler-client-nh.herokuapp.com/'
             github='https://github.com/nicholasherrick/warbler'
             description='MERN stack app meant to be similar to twitter. Uses React with Redux & Thunk for promise based global state handling. Features rehydration, uniform error handling, modern async javascript, etc.'
+          />
+          <Project
+            title='Presidential Clicky Game'
+            img={ClickyGame}
+            demo='https://clicky-game-278.netlify.app/'
+            github='https://github.com/nicholasherrick/clicky-game'
+            description="React application that tests the user's memory. Don't click the same image twice or you lose!"
           />
           <Project
             title='Fridge Friend'
