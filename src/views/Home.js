@@ -38,7 +38,7 @@ export default function Home() {
       </section>
 
       <section>
-        <div className="text-center">
+        <div className='text-center'>
           <h1>Experience</h1>
           <h2>Teaching Assistant</h2>
         </div>
@@ -52,18 +52,18 @@ export default function Home() {
         </div>
         <div className='portfolio-projects'>
           <Project
+            title='Mural Map'
+            img={MuralMap}
+            demo='https://muralmap.art/'
+            github='https://github.com/nicholasherrick/mural-map-frontend'
+            description='Mural Map is a browser based web application intended for use on mobile devices. The application allows users to find, discover and share murals using markers on an interactive google map.'
+          />
+          <Project
             title='StaySafe'
             img={StaySafe}
             demo='https://stay-safe-fork.herokuapp.com/'
             github='https://github.com/nicholasherrick/Project-Gamma'
             description='StaySafe is a browser based web application intended for use on mobile devices. Our application allows users to call for help on the go with ease, and keep tabs on their friends who are out and about.'
-          />
-          <Project
-            title='Mural Map (in progress)'
-            img={MuralMap}
-            demo='https://muralmap.art/'
-            github='https://github.com/nicholasherrick/mural-map-frontend'
-            description='Mural Map is a browser based web application intended for use on mobile devices. The application allows users to find, discover and share murals using markers on an interactive google map.'
           />
           <Project
             title='Warbler'
@@ -151,6 +151,6 @@ export default function Home() {
       </section>
 
       <Footer />
-    </div >
+    </div>
   );
 }
