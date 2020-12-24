@@ -7,7 +7,7 @@ export default function Project({ title, img, demo, github, description }) {
       <div className='item blue'>
         <img className='img-fluid' src={img} alt='project screenshot' />
         <a href={demo} target='_blank' rel='noopener noreferrer'>
-          <i class='far fa-eye'></i>
+          <i className='far fa-eye'></i>
         </a>
       </div>
       <p>
