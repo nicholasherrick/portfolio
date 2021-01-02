@@ -268,11 +268,7 @@ small {
   margin-bottom: 6rem;
 }
 
-@media screen and (max-width: 480px) {
-  img {
-    width: 100%;
-  }
-
+@media screen and (min-width: 768px) {
   .navbar {
     position: fixed;
     flex-wrap: wrap;
@@ -288,6 +284,12 @@ small {
       justify-content: center;
       align-items: center;
     }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  img {
+    width: 100%;
   }
 
   .dark-overlay h1 {
@@ -334,7 +336,4 @@ small {
       margin: auto;
     }
   }
-}
-
-@media screen and (min-width: 768px) {
 }

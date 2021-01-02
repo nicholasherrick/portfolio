@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Navbar from '../components/Navbar';
 import Project from '../components/Project';
 import Footer from '../components/Footer';
@@ -14,6 +14,20 @@ import MuralMap from '../assets/img/muralmap.png';
 import ClickyGame from '../assets/img/clickygame.jpg';
 
 export default function Home() {
+  const [hidden, setHidden] = useState(false);
+
+  const handleScroll = () => {
+    const top = window.pageYOffset || document.documentElement.scrollTop;
+    setHidden(top !== 0);
+  };
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
     <div>
       <section id='home-jump' className='showcase'>
@@ -21,9 +35,11 @@ export default function Home() {
           <video src={Video} autoPlay muted loop height='600'></video>
         </div>
         <div className='content'>
-          <div className='dark-overlay'>
-            <h1 className='welcome py-1'>Welcome to NicholasHerrick.com</h1>
-          </div>
+          {!hidden && (
+            <div className='dark-overlay'>
+              <h1 className='welcome py-1'>Welcome to NicholasHerrick.com</h1>
+            </div>
+          )}
         </div>
       </section>
       <Navbar />
