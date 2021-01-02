@@ -248,6 +248,9 @@ small {
 }
 
 .dark-overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   position: absolute;
   color: $light-color;
@@ -255,6 +258,10 @@ small {
   left: 0;
   background-color: $dark-color;
   opacity: 0.8;
+
+  & h1 {
+    margin: 0;
+  }
 }
 
 .special-hr {
@@ -284,7 +291,7 @@ small {
   }
 
   .dark-overlay h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .flex-wrapper {
