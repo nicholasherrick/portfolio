@@ -58,19 +58,31 @@ export default function Home() {
           <h1>Experience</h1>
           <h2>
             Frontend Web Developer at{' '}
-            <a href='https://www.bluejestic.com/' target='_blank'>
+            <a
+              href='https://www.bluejestic.com/'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
               Bluejestic
             </a>
           </h2>
           <h2>
             Teaching Assistant at{' '}
-            <a href='https://www.trilogyed.com/' target='_blank'>
+            <a
+              href='https://www.trilogyed.com/'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
               Trilogy Education Services
             </a>
           </h2>
           <h2>
             Technical Consultant | Fullstack Developer{' '}
-            <a href='https://starlightfoundry.com/' target='_blank'>
+            <a
+              href='https://starlightfoundry.com/'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
               Starlight Foundry
             </a>
           </h2>
