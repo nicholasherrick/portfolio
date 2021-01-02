@@ -56,7 +56,24 @@ export default function Home() {
       <section>
         <div className='text-center'>
           <h1>Experience</h1>
-          <h2>Teaching Assistant</h2>
+          <h2>
+            Frontend Web Developer at{' '}
+            <a href='https://www.bluejestic.com/' target='_blank'>
+              Bluejestic
+            </a>
+          </h2>
+          <h2>
+            Teaching Assistant at{' '}
+            <a href='https://www.trilogyed.com/' target='_blank'>
+              Trilogy Education Services
+            </a>
+          </h2>
+          <h2>
+            Technical Consultant | Fullstack Developer{' '}
+            <a href='https://starlightfoundry.com/' target='_blank'>
+              Starlight Foundry
+            </a>
+          </h2>
         </div>
       </section>
 
